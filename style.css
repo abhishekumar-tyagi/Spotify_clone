@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    background-color: aqua;
+    height:55px;
+    color:white;
+    background-color: black;
+}
+nav ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom:0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.brand img{
+    width:44px;
+    padding:0 8px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    bottom:0;
+}
+.myprogress{
+    text-align: center;
+    
+}
